@@ -1,0 +1,31 @@
+01. Netflix & more on 64bit OS. Raspberry Pi 4.
+https://www.youtube.com/watch?v=LXB1qXbbHG4
+
+2. https://github.com/yuriykaz/docker-chromium-armhf
+
+3. https://github.com/yuriykaz/docker-chromium-armhf
+
+4. Create a shortcut file Chromium-Armv7.desktop
+
+
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Exec=sudo chromium-armhf
+Name=Chromium with Widevine Support
+Icon=/home/pi/.run/chromium.png
+
+
+
+Copy to:
+/usr/share/applications
+
+
+
+Or use the one already provided by the author:
+Chromium-Armv7.desktop
+
+
+
